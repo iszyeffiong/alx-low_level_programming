@@ -13,13 +13,15 @@ _putchar('\n');
 }
 else
 {
-for (a = 1; a <= n; a++)
+for (a = 0; a < n; a++)
 {
-for (b = 1; b <= a; b++)
+for (b = 0; b < n; b++)
 {
-_putchar('_');
-}
+if (b == a)
 _putchar('\\');
+else if (b < a)
+_putchar(' ');
+}
 _putchar('\n');
 }
 }
