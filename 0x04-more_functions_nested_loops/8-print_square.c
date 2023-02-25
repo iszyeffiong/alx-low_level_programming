@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_square - func that prints square
- * @size: the nize of the square
- * Return: square ma e of '#'
+ * @size: the size of the square
+ * Return: square made of '#'
  */
 void print_square(int size)
 {
@@ -13,10 +13,10 @@ _putchar('\n');
 }
 else
 {
-for (a = 0; a <= size; a++)
+for (a = 1; a <= size; a++)
 {
 _putchar('#');
-for (b = 0; b <= size; b++)
+for (b = 2; b <= size; b++)
 {
 _putchar('#');
 }
